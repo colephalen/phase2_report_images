@@ -1,0 +1,56 @@
+Selected Features:
+  - DAY_OF_WEEK_sin
+  - cloud_cover_oktas
+  - HourlyWindSpeed_clean
+  - dest_airport_lat
+  - origin_airport_lat
+  - DISTANCE
+  - QUARTER_sin
+  - CRS_ELAPSED_TIME
+  - HourlyRelativeHumidity_clean
+  - HourlyDryBulbTemperature_clean
+  - HourlyDewPointTemperature_clean
+  - HourlyWindDirection_clean
+  - cloud_cover_percent
+  - highest_cloud_height
+  - DAY_OF_MONTH_cos
+  - dest_airport_lon
+  - DAY_OF_WEEK_cos
+  - SCHED_DEPART_HOUR_cos
+  - DEST_WAC
+  - QUARTER_cos
+  - HourlyAltimeterSetting_clean
+  - MONTH_sin
+  - HourlyVisibility_clean
+  - lowest_cloud_height
+  - DAY_OF_MONTH_sin
+  - HourlyStationPressure_clean
+  - HourlyWetBulbTemperature_clean
+  - HourlySeaLevelPressure_clean
+  - ORIGIN_WAC
+  - layer_count
+  - origin_airport_lon
+  - SCHED_DEPART_HOUR_sin
+  - HourlyPrecipitation_clean
+  - MONTH_cos
+
+Numeric Features EXCLUDED from selection:
+  - YEAR - Too Coarse? Do we want to sin/cosine transform?
+
+Non-Numeric Features EXCLUDED from selection:
+  - CARRIER_FLIGHT
+  - DATE - Is this fully covered by Our Day of Week and Month?
+  - FL_DATE - Is this fully covered by Our Day of Week and Month?
+  - DEST - I think we can add this back (with some clean-up)
+  - DEST_CITY - Not required, airport should matter most?
+  - DEST_STATE - Not required, airport should matter most?
+  - OP_UNIQUE_CARRIER - YES
+  - ORIGIN - YES
+  - ORIGIN_CITY- Not required, airport should matter most?
+  - ORIGIN_STATE- Not required, airport should matter most?
+  - TAIL_NUM - I think we can add this back (with some clean-up)
+  - cloud_cover_category
+  - dest_type
+  - has_low_clouds
+  - origin_type
+  - sched_depart_date_time_UTC - 

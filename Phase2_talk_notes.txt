@@ -1,0 +1,32 @@
+explain MAE
+Best value available. - spoil best result, highlight results 
+
+Data Sources!!!
+- Where is this data come from
+	- DOT, NOAA
+- explain the data
+
+Duplicate rows - review(!)
+
+Talk about numbers of rows and columns dropped
+
+Forward Fill
+- 1 am thru 5am ? are we forward filling there ? 
+	- Looks like we shouldn't
+
+Show log(x+1) distribution
+
+Use Lasso for feature selection - more in line with regression
+
+Random forest less useful in this case 
+
+MAPE is a bit funky with 1 vs 2 (100%)
+and 15 vs 16 (<10%)
+
+precise language! - WHAT / WHICH Correlation
+
+TIME / SPEED / PERFORMANCE of MODEL
+
+DOUBLE to FLOAT conversion(performance improvement)
+
+metrics at the top
